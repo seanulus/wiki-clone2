@@ -1,0 +1,144 @@
+body {
+  font-family: sans-serif;
+  background-color: #f6f6f6;
+}
+
+.header-blurb .wiki-header {
+  font-size: 1.5em;
+}
+
+.header-blurb h1, p {
+  margin: 0;
+}
+.header-blurb {
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.header-blurb p {
+  font-size: .8em;
+}
+.main-content {
+  padding: 20px;
+  border: 1px solid #a7d7f9;
+  border-top: 0;
+  background-color: white;
+
+}
+
+.top-bar {
+  height: 80px;
+  background-color: #f6f6f6;
+  margin-bottom: 25px;
+  }
+
+.top-bar a {
+  float: right;
+  margin-left: 10px;
+}
+
+.flex-wrapper {
+  display: flex;
+  margin-right: 20px;
+}
+
+.sidebar {
+  background-color: #f6f6f6;
+  float: left;
+  width: 160px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.logo-div img {
+  width: 140px;
+}
+
+.navbar {
+  height: 94px;
+  display: flex;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+
+.navbar-links {
+  display: flex;
+
+}
+
+.left-right-content-wrapper {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.content-left {
+  background-color: #f5fffa;
+  border: 1px solid #a3bfb1;
+  width: 60%;
+  padding: 15px;
+  margin-right: 2px;
+}
+
+.content-right {
+  background-color: #f5faff;
+  border: 1px solid #a3b0bf;
+  width: 40%;
+  padding: 15px;
+  margin-left: 2px;
+}
+
+.content-left .article-header-left {
+  border: 1px solid #a3bfb1;
+  background-color: #cef2e0;
+  margin: 0;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.content-right .article-header-right {
+  border: 1px solid #a3b0bf;
+  background-color: #cedff2;
+  margin: 0;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+
+.harry-photo {
+  float: right;
+  width: 120px;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.todays-featured h2 {
+  background-color: #ddcef2;
+  border: 1px solid #afa3bf;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.todays-featured img {
+  float: left;
+  padding: 10px;
+}
+
+.todays-featured a {
+  float: right;
+}
+
+.todays-featured {
+  background-color: #faf5ff;
+  border: 1px solid #ddcef2;
+  padding: 10px;
+  overflow: auto;
+}
+
+.smaller-charles {
+  font-size: .9em;
+}
